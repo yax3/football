@@ -7,7 +7,6 @@ var classArray = ['animate-kick-1-sector', 'animate-kick-2-sector', 'animate-kic
 var animationIsActive = false;
 
 kick.onclick = function() {
-	
     if (animationIsActive == false) {
         animationIsActive = true;
         setTimeout(function() {
